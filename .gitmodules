@@ -1,0 +1,9 @@
+[submodule "recursos/free-programming-books"]
+	path = recursos/free-programming-books
+	url = https://github.com/EbookFoundation/free-programming-books.git
+[submodule "recursos/free-livros"]
+	path = recursos/free-livros
+	url = https://github.com/free-educa/free-livros.git
+[submodule "recursos/programming-books"]
+	path = recursos/programming-books
+	url = https://github.com/CodesdaLu/Programming-Books.git
