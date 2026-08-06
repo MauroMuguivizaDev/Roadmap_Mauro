@@ -1,20 +1,70 @@
 # Plano de Estudos de Programação (100% gratuito, em português)
 
-> Baseado na lista de cursos que você enviou. Como o índice cobre praticamente toda a
-> computação (mobile, web, dados, DevOps, sistemas embarcados etc.), este plano organiza
-> tudo em **fases** e **trilhas**, para você progredir com foco em vez de tentar tudo ao
-> mesmo tempo.
+> Feito para ser usado em grupo. O índice original cobre praticamente toda a
+> computação (mobile, web, dados, DevOps, sistemas embarcados etc.), então este plano
+> organiza tudo em **fases** e **trilhas**, para o grupo progredir com foco em vez de
+> tentar tudo ao mesmo tempo — e ainda assim conseguir estudar coisas diferentes e trocar
+> conhecimento entre si.
 
 ---
 
-## Como usar este plano
+## Como o grupo pode usar este plano
 
-1. Comece sempre pela **Fase 0 (Fundamentos)** — não pule, mesmo que ache que já sabe.
-2. Depois da Fase 0, escolha **uma trilha principal** (Web, Mobile, Dados/IA, DevOps/Infra
-   ou Sistemas). Dá pra combinar depois, mas comece focado numa só.
-3. Dentro de cada trilha, siga a ordem sugerida — cada curso prepara para o próximo.
-4. Ferramentas transversais (Git, Linux, Segurança básica) valem para qualquer trilha —
-   estude em paralelo, não precisa dominar antes de seguir em frente.
+1. Todo mundo começa pela **Fase 0 (Fundamentos)**, juntos — não pulem, mesmo quem já
+   acha que sabe. É a base comum que garante que todos conseguem se ajudar depois.
+2. Depois da Fase 0, cada pessoa (ou dupla) escolhe **uma trilha principal** (Web,
+   Mobile, Dados/IA, DevOps/Infra ou Sistemas). Não precisa todo mundo escolher a mesma —
+   pelo contrário, ter gente em trilhas diferentes é bom: quando alguém trava, alguém do
+   grupo especializado naquilo pode ajudar.
+3. Dentro de cada trilha, sigam a ordem sugerida — cada curso prepara para o próximo.
+4. Ferramentas transversais (Git, Linux, Segurança básica) valem pra qualquer trilha —
+   estudem em paralelo, não precisa dominar antes de seguir em frente.
+
+---
+
+## Organização em grupo
+
+Ideias simples pra manter todo mundo engajado e evitar que o grupo se perca no meio do
+caminho:
+
+### Papéis e trilhas
+
+Façam uma tabela como essa (pode ser num arquivo `progresso-do-grupo.md`, numa aba de
+planilha, ou num quadro do GitHub Projects) pra saber quem está em quê:
+
+| Pessoa | Trilha principal | Fase atual | Última atualização |
+|---|---|---|---|
+| Ex: Mauro | Web | Trilha 1.2 (framework front-end) | 05/08 |
+| | | | |
+
+### Encontros de sincronização
+
+- Um encontro curto (15–20 min) por semana, presencial ou por chamada, só pra cada um
+  contar o que concluiu e onde travou.
+- Quem terminar uma trilha inteira pode fazer uma "mini-aula" de 10 minutos pro resto do
+  grupo — ensinar é uma das formas mais rápidas de fixar o que se aprendeu.
+
+### Duplas de estudo
+
+Sempre que possível, formem duplas na mesma trilha nas primeiras semanas — ajuda a manter
+o ritmo e criar o hábito de revisar código um do outro.
+
+### Usando o GitHub para acompanhar
+
+Se o repositório for compartilhado entre o grupo:
+
+- Usem **Issues** para cada pessoa abrir uma "issue de progresso" (ex: `Progresso -
+  Mauro`) e ir comentando semanalmente o que concluiu.
+- Usem **Discussions** (se ativado no repositório) pra tirar dúvidas entre vocês antes de
+  procurar em fóruns externos.
+- Cada pessoa pode ter sua própria cópia local do `trilha-estudos.html` — o progresso é
+  salvo por navegador/dispositivo, então cada um marca o seu.
+
+### Regra de ouro do grupo
+
+Ninguém fica pra trás sozinho. Se alguém sumir ou travar por mais de uma semana numa
+etapa, é sinal pro grupo puxar aquela pessoa de volta — manda mensagem, oferece ajuda,
+ou revisa junto o que está travando.
 
 ---
 
@@ -31,7 +81,9 @@
 | 7 | Curso de Git e GitHub 2024 | Carlos Uchoa |
 
 **Objetivo da fase:** entender lógica de programação, saber usar o terminal Linux
-básico, e versionar código com Git/GitHub. Isso é pré-requisito para qualquer trilha.
+básico, e versionar código com Git/GitHub. Isso é pré-requisito para qualquer trilha —
+e também o que permite ao grupo colaborar no mesmo repositório sem bagunçar o código
+uns dos outros.
 
 ---
 
@@ -75,6 +127,11 @@ básico, e versionar código com Git/GitHub. Isso é pré-requisito para qualque
 | 1 | Curso completo de Typescript (Rincko Dev) |
 | 2 | TypeScript — Aprendendo Junto (DevDojo) |
 | 3 | Angular (Loiane Groner) *— opcional, se quiser esse framework* |
+
+> **Ideia de projeto em grupo:** depois da Fase 1.1–1.3, montem juntos um projeto real
+> (ex: um site de eventos, um clone simples de alguma rede social, um sistema de lista de
+> tarefas) — cada um cuida de uma parte (front, back, banco de dados) e usam Git/GitHub
+> pra colaborar de verdade.
 
 ---
 
@@ -184,24 +241,27 @@ Para quem já tem base de programação e quer ir mais fundo:
 
 ---
 
-## Sugestão de cronograma (se for estudar ~1h/dia)
+## Sugestão de cronograma (estudando ~1h/dia)
 
 | Semanas | Foco |
 |---|---|
-| 1–3 | Fase 0 completa (lógica, Linux, Git) |
+| 1–3 | Fase 0 completa, junto com o grupo (lógica, Linux, Git) |
 | 4–6 | HTML/CSS + JavaScript básico |
 | 7–9 | Framework front-end (React ou Vue) |
-| 10–13 | Back-end + banco de dados (escolha uma linguagem) |
+| 10–13 | Back-end + banco de dados (escolha uma linguagem) — bom momento pro projeto em grupo |
 | 14+ | Projetos práticos combinando tudo, depois expandir para outra trilha (Mobile, Dados, DevOps) |
 
 Isso é só um ritmo de referência — o importante é praticar escrevendo código todo dia,
-mesmo que pouco, em vez de só assistir aula.
+mesmo que pouco, em vez de só assistir aula. Combinem entre vocês um ritmo que funcione
+pra todo mundo; de nada adianta um cronograma que só uma pessoa consegue seguir.
 
 ---
 
 ## Observação importante
 
-Você não precisa (e não deveria tentar) estudar todas as ~30 linguagens/áreas desse
-índice ao mesmo tempo. A maioria dos desenvolvedores profissionais domina bem 1–2
-linguagens e tem noção geral das outras. Escolha uma trilha, vá até conseguir construir
-um projeto pequeno sozinho, e só depois expanda.
+O grupo não precisa (e não deveria tentar) estudar todas as ~30 linguagens/áreas desse
+índice ao mesmo tempo, nem cada pessoa sozinha. A maioria dos desenvolvedores
+profissionais domina bem 1–2 linguagens e tem noção geral das outras. Cada um escolhe uma
+trilha, vai até conseguir construir um projeto pequeno sozinho, e só depois expande — e o
+grupo, coletivamente, acaba cobrindo muito mais terreno do que se cada um tentasse fazer
+tudo sozinho.
